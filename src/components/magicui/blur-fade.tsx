@@ -1,9 +1,11 @@
 "use client";
 
+import { Margin } from 'react-intersection-observer';
 import { AnimatePresence, motion, useInView, Variants } from "framer-motion";
 import { useRef } from "react";
 
 interface BlurFadeProps {
+  inViewMargin?: Margin;
   children: React.ReactNode;
   className?: string;
   variant?: {
