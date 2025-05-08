@@ -145,7 +145,7 @@ export default function Page() {
                   tags={project.technologies}
                   image={project.image}
                   video={project.video}
-                  //links={project.links}
+                //links={project.links}
                 />
               </BlurFade>
             ))}
@@ -206,15 +206,19 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Just shoot me an email{" "}
+                <a
+                  href="mailto:madugulasurya9555@gmail.com"
+                  className="text-blue-500 hover:underline"
+                >
+                  madugulasurya9555@gmail.com
+                </a>{" "}
                 {/* <Link
                   href={DATA.contact.social.X.url}
                   className="text-blue-500 hover:underline"
                 >
                   with a direct question on twitter
                 </Link>{" "} */}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
               </p>
             </div>
           </BlurFade>
