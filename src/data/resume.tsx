@@ -47,10 +47,10 @@ export const DATA = {
 
       email: {
         name: "Send Email",
-        url: "mailto:madugulasurya9555@gmail.com",
+        url: "mailto:${madugulasurya9555@gmail.com}",
         icon: Icons.email,
 
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -63,10 +63,22 @@ export const DATA = {
       location: "Remote",
       title: "WordPress Dev Intern",
       logoUrl: "/nvidia.png",
-      start: "Dec 2024",
+      start: "December 2024",
       end: "April 2025",
       description:
         "Implemented advanced plugin integrations, optimized SEO strategies, and conducted website performance audits, improving site speed and technical reliability by 30%.",
+    },
+    {
+      company: " EDUSKILLS",
+      badges: [],
+      href: "https://eduskillsfoundation.org/login/",
+      location: "Remote",
+      title: "Intern on MongoDB",
+      logoUrl: "/mongo.png",
+      start: "July 2023",
+      end: "October 2023",
+      description:
+        "Developed practical skills in MongoDB, including proficiency in establishing connections and leveraging database functionalities, improving data handling efficiency by 35%",
     },
     {
       company: "E&ICT",
@@ -76,23 +88,10 @@ export const DATA = {
       title: "Python Dev Intern",
       logoUrl: "/atomic.png",
       start: "June 2022",
-      end: "Oct 2022",
+      end: "October 2022",
       description:
-        "Improved software development efficiency by 25% and reduced code errors by 30% by applying advanced Object-Oriented Programming (OOP) principles and enhanced debugging techniques during a Python Developer internship at IIT Kanpur.",
-    },
-    /*
-    {
-      company: "Shopify",
-      badges: [],
-      href: "https://shopify.com",
-      location: "Remote",
-      title: "Software Engineer",
-      logoUrl: "/shopify.svg",
-      start: "January 2021",
-      end: "April 2021",
-      description:
-        "Implemented a custom Kubernetes controller in Go to automate the deployment of MySQL and ProxySQL custom resources in order to enable 2,000+ internal developers to instantly deploy their app databases to production. Wrote several scripts in Go to automate MySQL database failovers while maintaining master-slave replication topologies and keeping Zookeeper nodes consistent with changes.",
-    },
+        "Improved Software Development efficiency by 25% and reduced code errors by 30% by applying advanced Object-Oriented Programming (OOP) principles and enhanced debugging techniques during a Python Developer internship at IIT Kanpur.",
+    },/*
     {
       company: "Nvidia",
       href: "https://nvidia.com/",
@@ -239,12 +238,82 @@ export const DATA = {
       video: "",
     },
     {
+      title: "INDIAN TRAFFIC SIGN DETECTION AND RECOGNITION USING DEEP LEARNING.",
+      //href: "#",
+      dates: "Jan 2023 - Feb 2023",
+      active: true,
+      description:
+        "Built a real-time traffic sign detection and recognition system using deep learning to enhance road safety. Utilized Keras and TensorFlow for implementation, achieving high accuracy and responsiveness.",
+      technologies: [
+        "Python 3.8",
+        "TensorFlow",
+        "Keras",
+        "Machine Learning",
+        "OpenCV",
+        // "LangGraph",
+        // "LangChain",
+        // "Selenium",
+        // "Stripe",
+        // "Shadcn UI",
+        // "Magic UI",
+      ],
+      /*links: [
+        {
+          type: "Website",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/magicuidesign/magicui",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],*/
+      image: "/INDIAN.jpeg",
+      video: "",
+    },
+    {
+      title: "WOMEN SAFETY ANDROID APP FOR MONITORING, TRACKING & RESPONDING",
+      //href: "#",
+      dates: "Jan 2022 - Feb 2022",
+      active: true,
+      description:
+        " Developed an Android application for women safety, implemented GPS and SMS services, and reduced emergency response times by 20%, with over 200 users benefiting from enhanced safety features.",
+      technologies: [
+        "Java 1.8",
+        "XML",
+        "Eclipse IDE",
+        // "Machine Learning",
+        // "OpenCV",
+        // "LangGraph",
+        // "LangChain",
+        // "Selenium",
+        // "Stripe",
+        // "Shadcn UI",
+        // "Magic UI",
+      ],
+      /*links: [
+        {
+          type: "Website",
+          href: "https://magicui.design",
+          icon: <Icons.globe className="size-3" />,
+        },
+        {
+          type: "Source",
+          href: "https://github.com/magicuidesign/magicui",
+          icon: <Icons.github className="size-3" />,
+        },
+      ],*/
+      image: "/women.jpeg",
+      video: "",
+    },
+    {
       title: "ATM SIMULATION MACHINE",
       //href: "https://llm.report",
       dates: "June 2022 - September 2022",
       active: true,
       description:
-        "ATM System is the project which is used to access their bank accounts in order to make cash withdrawals.",
+        "Developed an ATM business application system that automated bank account access for cash withdrawals, reducing transaction completion time by 40% and minimizing errors by 30%, resulting in a smoother and more secure user experience. The system improved transaction speed by 40% and reduced errors by 30%, enhancing user experience and ensuring secure and efficient banking operations.",
       technologies: [
         "Python",
         "MySQL",
