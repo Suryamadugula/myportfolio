@@ -180,7 +180,7 @@ export const DATA = {
   projects: [
     {
       title: "AI Finance Agent",
-      //href: "https://chatcollect.com",
+      //href: "#",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -208,7 +208,7 @@ export const DATA = {
     },
     {
       title: "AI Web Scraper Tool",
-      //href: "https://magicui.design",
+      //href: "#",
       dates: "June 2023 - August 2023",
       active: true,
       description:
