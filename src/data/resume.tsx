@@ -10,7 +10,7 @@ export const DATA = {
   description:
     "Software Engineer. I love building things and helping people.",
   summary:
-    "A computer science student passionate about technology, programming, and problem-solving. Excited to create a positive impact through innovation.",
+    "A Computer Science student passionate about technology, programming, and problem-solving. Excited to create a positive impact through innovation.",
   avatarUrl: "/me.png",
   skills: [
     "Python",
