@@ -179,7 +179,7 @@ export const DATA = {
   projects: [
     {
       title: "AI Finance Agent",
-      //href: "#",
+      href: "https://github.com/Suryamadugula/Financeproject",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
